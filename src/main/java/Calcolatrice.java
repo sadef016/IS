@@ -10,6 +10,8 @@ public class Calcolatrice {
             risultato= val1 * val2;
         } else if (op.equals("/")){
             risultato= val1/val2;
+        } else if (op.equals("%")){
+            risultato= val1%val2;
         }else {
             System.out.println("Operatore matematico non valido");
         }
