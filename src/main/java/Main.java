@@ -11,7 +11,7 @@ public class Main {
         val1= scanner.nextInt();
         System.out.println("Inserisci secondo numero");
         val2 = scanner.nextInt();
-        System.out.println("Inserisci operatore matematico ('+' '-' 'x' '/')");
+        System.out.println("Inserisci operatore matematico ('+' '-' '%' 'x' '/')");
         op= scanner2.nextLine();
 
         Calcolatrice c= new Calcolatrice();
